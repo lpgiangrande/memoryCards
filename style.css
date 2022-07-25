@@ -22,7 +22,7 @@
   
   .carte {
     background-color: transparent;
-    perspective: 1000px; /* ? | Mieux de l'utiliser sur le parent */
+    perspective: 1000px; /* Meilleur effet - Mieux de l'utiliser sur le parent */
     margin: 5px;
   }
   
@@ -31,14 +31,14 @@
     width: 100%;
     height: 100%;
     transition: transform 0.6s;
-    transform-style: preserve-3d;
+    transform-style: preserve-3d; 
   }
   
   .face, .arriere {
     position: absolute;
     width: 100%;
     height: 100%;
-    backface-visibility: hidden; /* ne pas afficher la face retournée */
+    backface-visibility: hidden; /* Pour révéler la face cachée, sinon la carte se tourne mais on ne voit que le "?"*/
     -webkit-backface-visibility: hidden;
   }
   
@@ -63,7 +63,7 @@ span{
       color: #ede7f2;
       font-family: 'Rock Salt', cursive;
   }
-  .active {
+  .flip {
     transform: rotateY(180deg);
   }
 
