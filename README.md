@@ -4,7 +4,7 @@ This is a memory cards game from Udemy - " 20 projets avec JavaScript " (Enzo Us
 
 ### Screenshot
 
-![](memory.jpg)
+![](memory.png)
 
 
 ### Links
