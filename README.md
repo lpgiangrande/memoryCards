@@ -2,11 +2,6 @@
 
 This is a memory cards game from Udemy - " 20 projets avec JavaScript " (Enzo Ustariz)
 
-### Screenshot
-
-![](memory.png)
-
-
 ### Links
 
 - Live Site URL: https://62ded2cd5bed9455eb7bee6c--unrivaled-squirrel-337bea.netlify.app/
